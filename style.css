@@ -1,5 +1,5 @@
     h1, h2, h3 {
-    color: #990000;
+    color: #dc7900;
   }
   
   a {
@@ -12,7 +12,7 @@
   }
   
   h1 {
-    font-size: 36px;
+    font-size: 70px;
     font-weight: bold;
   }
   
@@ -31,8 +31,12 @@
   }
   .container {
   width: 90%;
-  margin: 50px;
+  margin: 90px;
+  margin-top: 250px;
   max-width: 1200px;
+}
+.itty {
+    font-style: italic;
 }
 
 @media only screen and (max-width: 768px) {
@@ -76,7 +80,7 @@ a:hover {
     animation: pulse 2s infinite;
   }
   body {
-			background: linear-gradient(to bottom right, #f00, #ff0, #0ff, #00f, #f0f, #f00);
+			background: linear-gradient(to bottom right, rgb(255, 185, 73), #ff0, #0ff, rgb(44, 114, 255), #f0f, #f00);
 			background-size: 1800% 1800%;
 			animation: rainbow 18s ease infinite;
 		}
@@ -96,14 +100,15 @@ a:hover {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #333;
+            background-color: #0040c1;
+            border-radius: 10px;
             height: 50px;
-            padding: 0 20px;
+            padding: 10px 30px;
           }
           
           .left h1 {
             color: #fff;
-            font-size: 24px;
+            font-size: 34px;
             margin: 0;
           }
           
@@ -119,11 +124,23 @@ a:hover {
             font-size: 16px;
             margin-left: 10px;
             padding: 10px 15px;
-            box-shadow: inset 0 0 0 2px #333;
+            border-radius: 10px;
           }
           
           .right button:hover {
-            background-color: #555;
-            box-shadow: inset 0 0 0 2px #555;
+            background-color: #000c8d;
+            animation: smallpulse 1s infinite;
+          }
+
+          @keyframes smallpulse {
+            0% {
+              transform: scale(1);
+            }
+            50% {
+              transform: scale(1.1);
+            }
+            100% {
+              transform: scale(1);
+            }
           }
           
