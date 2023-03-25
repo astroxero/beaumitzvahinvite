@@ -10,20 +10,25 @@
 <body>
     <nav>
         <div class="left">
-          <h1 class="itty">BEAU</h1>
+          <h1 class="itty" onclick="switchTab()">BEAU</h1>
         </div>
         <div class="right">
           <button>Information</button>
-          <button>RSVP</button>
-          <button>Contact</button>
+          <button onclick="switchToRSVP()">RSVP</button>
+          <button onclick="email()">Contact</button>
         </div>
       </nav>
       
    
     <div class="container">
-        <h1>HAHA!</h1>
-        <h2 class="blooy">Beau is having their Beau Mitzvah on June 19th and we want you to join us!</h2>
-        <button class="button">RSVP here</button>
+      <form action="https://formsubmit.co/beaurubrot@gmail.com" method="POST">
+        <h1>RSVP</h1>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="number" name="party size" placeholder="Your Party Size" required>
+        <button class="button" type="submit">Send</button>
+      </form>
+        
     </div>
     
 
