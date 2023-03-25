@@ -3,6 +3,7 @@
   }
   
   input {
+    outline: none;
     padding: 10px;
     border-radius: 10px;
     border: 0ch;
