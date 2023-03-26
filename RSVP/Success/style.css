@@ -28,7 +28,7 @@
   h1 {
     font-size: 70px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 20;
   }
   .itty:hover {
     cursor: grab;
