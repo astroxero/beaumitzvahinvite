@@ -10,3 +10,10 @@ function switchTab() {
 function  email() {
     window.location.href = "mailto:jrotten@earstudio.com"
 }
+function validateForm() {
+    var x = document.getElementById("rsvpStatus").value;
+    if (x == "") {
+      alert("Please select a RSVP staus in the 'Will you attend' dropdown");
+      return false;
+    }
+}
