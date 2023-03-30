@@ -7,6 +7,6 @@ function switchToInfo() {
 function switchTab() {
     window.location.href = "index.html"
 }
-function  emailWindow() {
+function  email() {
     window.location.href = "mailto:jrotten@earstudio.com"
 }
