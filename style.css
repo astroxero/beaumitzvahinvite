@@ -111,7 +111,7 @@ a:hover {
             align-items: center;
             background-color: #0040c1;
             border-radius: 10px;
-            height: 50px;
+            height: auto;
             padding: 10px 30px;
           }
           
@@ -153,4 +153,38 @@ a:hover {
               transform: scale(1);
             }
           }
+
+          @media only screen and (max-width: 768px) {
+            h1 {
+              font-size: 48px;
+            }
+          
+            h2 {
+              font-size: 18px;
+            }
+          
+            .button {
+              font-size: 16px;
+              padding: 6px 12px;
+            }
+          
+            .logo {
+              width: 60px;
+              height: 60px;
+            }
+          
+            .container {
+              margin: 10px;
+            }
+          
+            nav {
+              padding: 5px;
+            }
+          
+            .left h1 {
+              font-size: 24px;
+            }
+          }
+          
+          
           
