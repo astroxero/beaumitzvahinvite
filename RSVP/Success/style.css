@@ -134,7 +134,8 @@ a:hover {
           }
           
           .right {
-            display: flex;
+            display: flexbox;
+            text-align: end;
           }
           
           .right button {
