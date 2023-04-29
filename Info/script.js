@@ -1,11 +1,11 @@
 function switchToRSVP() {
-    window.location.href = "../RSVP/index.html"
+    window.location.href = "../RSVP"
 }
 function switchToInfo() {
-    window.location.href = "/index.html"
+    window.location.href = "/"
 }
 function switchTab() {
-    window.location.href = "../index.html"
+    window.location.href = "../"
 }
 function  email() {
     window.location.href = "mailto:jrotten@earstudio.com"

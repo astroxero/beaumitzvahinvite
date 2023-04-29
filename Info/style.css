@@ -70,6 +70,7 @@ a:hover {
   
   .button:hover {
     animation: pulse 1s infinite;
+    cursor: grab;
   }
   
   @keyframes pulse {
