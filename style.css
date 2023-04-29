@@ -136,7 +136,10 @@ a:hover {
           }
 
 
-          @media (max-width: 600px) {
+          @media (max-width: 1300px) {
+            .container {
+              margin-top: 90px;
+            }
             .image {
               position: static; /* Remove absolute positioning */
               float: right; /* Float the image to the right */
