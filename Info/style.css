@@ -45,6 +45,7 @@
 }
 .blooy {
     color: #0063c7;
+    line-height: 160%;
 }
 
 @media only screen and (max-width: 768px) {
