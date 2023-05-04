@@ -64,7 +64,9 @@
   max-width: 1200px;
 }
 .itty {
-    font-style: italic;
+  height: 33.51px;
+  width: 70px;
+  color: #fff;
 }
 .blooy {
     color: #0063c7;
