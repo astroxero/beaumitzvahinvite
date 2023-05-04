@@ -2,7 +2,7 @@ function switchToRSVP() {
     window.location.href = "../RSVP"
 }
 function switchToInfo() {
-    window.location.href = "/"
+    window.location.href = "/Info"
 }
 function switchTab() {
     window.location.href = "../"

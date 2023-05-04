@@ -1,5 +1,5 @@
 function switchToRSVP() {
-    window.location.href = "/"
+    window.location.href = "/RSVP"
 }
 function switchToInfo() {
     window.location.href = "../Info"
