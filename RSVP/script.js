@@ -17,3 +17,6 @@ function validateForm() {
       return false;
     }
 }
+function  movie() {
+    window.location.href = "https://vimeo.com/user/763688/folder/7230978"
+}
